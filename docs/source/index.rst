@@ -1,13 +1,26 @@
-Welcome to Lumache's documentation!
-===================================
+KupenStack Documentation
+========================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+KupenStack is an open-source project for managing OpenStack resources and OpenStack infrastructure in
+a Kubernetes cluster.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+It provides CRDs to declaratively deploy, manage, and scale OpenStack resources in a Kubernetes cluster.
+While it also provides an operator to lcm a self-managed OpenStack cluster alongside the Kubernetes cluster.
+
+Introduction
+------------
+
+:doc:`/Introduction`
+    A brief introduction to Kupenstack i.e Kubernetes Based Cloud Native OpenStack
+
+:doc:`/Cloud-Native-OpenStack-as-code-on-Kubernetes`
+    This section starts with an introduction to the KupenStack architecture and design principles
+
+:doc:`/Considerations-for-possible-KupenStack-integrations-and-innovations`
+   This section highlights the possible future integrations of KupenStack with various technologies and paradigms.
+
+:doc:`/Conclusion`
+    Our future visions regarding the project.
 
 .. note::
 
@@ -18,5 +31,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Introduction
+   Cloud-Native OpenStack as-code on Kubernetes
+   Considerations for possible KupenStack integrations and innovations
+   Conclusion
